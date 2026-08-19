@@ -1,0 +1,94 @@
+.membership-shell {
+  justify-content: flex-start;
+  padding-top: 28px;
+}
+
+.membership-progress {
+  margin: 0 0 14px;
+}
+
+.membership-progress__label {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--aselco-ink-500);
+  text-align: center;
+}
+
+.membership-card {
+  padding: 16px 12px 20px;
+}
+
+.membership-step-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--aselco-ink-900);
+}
+
+.membership-privacy-body {
+  margin: 0 8px 12px;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--aselco-green-050);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--aselco-ink-700);
+  white-space: pre-wrap;
+}
+
+.membership-hint {
+  margin: 4px 16px 8px;
+  font-size: 12px;
+  color: var(--aselco-ink-500);
+}
+
+.membership-preview {
+  margin: 8px 8px 16px;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--aselco-canvas);
+}
+
+.membership-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  padding: 8px 8px 0;
+}
+
+.membership-actions ion-button {
+  flex: 1;
+}
+
+.membership-done {
+  margin: 0 12px 8px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--aselco-ink-700);
+}
+
+.membership-signout {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 20px auto 0;
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--aselco-ink-500);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.membership-signout ion-icon {
+  font-size: 18px;
+}

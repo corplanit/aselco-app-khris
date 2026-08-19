@@ -1,0 +1,85 @@
+/* ASELCO brand theme — Ionic CSS variables */
+
+:root {
+  /* Typography */
+  --font-display: "Young Serif", Georgia, serif;
+  --font-body: "Figtree", system-ui, sans-serif;
+  --font-mono: "Spline Sans Mono", ui-monospace, monospace;
+
+  /* Brand greens */
+  --aselco-green-900: #054d24;
+  --aselco-green-800: #0a6b33;
+  --aselco-green-700: #0e7c3a;
+  --aselco-green-600: #14883f;
+  --aselco-green-500: #1aa04b;
+  --aselco-green-100: #e6f4ea;
+  --aselco-green-050: #f1faf4;
+
+  --aselco-success: #16a34a;
+  --aselco-warning: #f4761f;
+  --aselco-danger: #d92d20;
+  --aselco-info: #2563eb;
+
+  --aselco-ink-900: #14181f;
+  --aselco-ink-700: #3d444f;
+  --aselco-ink-500: #6b7280;
+  --aselco-ink-400: #9aa1ac;
+  --aselco-line: #eceff1;
+  --aselco-surface: #ffffff;
+  --aselco-canvas: #f3f5f4;
+
+  --aselco-radius-soft: 20px;
+  --aselco-shadow-soft: 0 8px 28px rgba(16, 40, 26, 0.08);
+
+  --ion-font-family: var(--font-body);
+
+  --ion-color-primary: #0e7c3a;
+  --ion-color-primary-rgb: 14, 124, 58;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0c6d33;
+  --ion-color-primary-tint: #26894e;
+
+  --ion-color-secondary: #14883f;
+  --ion-color-secondary-rgb: 20, 136, 63;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #127837;
+  --ion-color-secondary-tint: #2c9452;
+
+  --ion-color-success: #16a34a;
+  --ion-color-success-rgb: 22, 163, 74;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #138f41;
+  --ion-color-success-tint: #2dac5c;
+
+  --ion-color-warning: #f4761f;
+  --ion-color-warning-rgb: 244, 118, 31;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #d7681b;
+  --ion-color-warning-tint: #f58435;
+
+  --ion-color-danger: #d92d20;
+  --ion-color-danger-rgb: 217, 45, 32;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #bf281c;
+  --ion-color-danger-tint: #dd4236;
+
+  --ion-background-color: #f3f5f4;
+  --ion-background-color-rgb: 243, 245, 244;
+  --ion-text-color: #14181f;
+  --ion-text-color-rgb: 20, 24, 31;
+
+  /* White navbar */
+  --ion-toolbar-background: #ffffff;
+  --ion-toolbar-color: #14181f;
+  --ion-tab-bar-background: #ffffff;
+  --ion-tab-bar-color: #6b7280;
+  --ion-tab-bar-color-selected: #0e7c3a;
+
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+}
